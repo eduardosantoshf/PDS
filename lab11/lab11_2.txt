@@ -1,0 +1,1 @@
+O padrão Template Method é utilizado em todas os metodos não abstract das classes dadas (java.io.InputStream, java.io.OutputStream,java.io.Reader, java.io.Writer, java.util.AbstractList, java.util.AbstractSet e java.util.AbstractMap)

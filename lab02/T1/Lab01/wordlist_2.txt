@@ -1,0 +1,16 @@
+Algebra
+Variable
+Constant
+Coefficient
+Equation
+Degree
+Monomial
+Binomial
+Trinomial
+Polynomial
+Linear
+Quadratic
+Cubic
+Zero
+Root
+Expression

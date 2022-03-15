@@ -1,0 +1,24 @@
+package lab08_02;
+
+public class BankAccountImpl  implements BankAccount{
+    private String bank;
+    private double balance;
+
+    BankAccountImpl (String bank, double initialDeposit) {
+        this.bank = bank;
+        balance = initialDeposit;
+    }
+
+    @Override
+    public void deposit(double amount) { balance += amount; }
+
+    @Override
+    public boolean withdraw(double amount) {
+        if (amount > balance) {return false;}
+        balance -= amount;
+        return true;
+    }
+
+    @Override
+    public double balance() { return balance; }
+}
